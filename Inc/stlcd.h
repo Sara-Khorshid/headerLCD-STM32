@@ -52,7 +52,7 @@ void lcd_init(void)
  comm(0x08);
  comm(0x01); 
  comm(0x06);  
- comm(0x0c);
+ comm(0x0e);
 }
 
 void lcd_putchar(char c)
